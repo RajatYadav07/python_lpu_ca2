@@ -6,6 +6,7 @@ import seaborn as sns
 import tkinter as tk
 from tkinter import ttk
 
+
 # Load and clean data
 df = pd.read_csv("survey_results_public.csv")
 columns = ['MainBranch', 'Age', 'Employment', 'RemoteWork', 'EdLevel', 
