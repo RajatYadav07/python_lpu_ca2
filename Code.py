@@ -4,7 +4,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 import seaborn as sns
 import tkinter as tk
-
 from tkinter import ttk
 
 # Load and clean data
