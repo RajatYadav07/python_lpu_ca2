@@ -98,7 +98,7 @@ def show_line_chart():
     plt.xticks(rotation=45)
     plt.tight_layout()
     plt.show()
-
+#
 # GUI Setup
 root = tk.Tk()
 root.title("Interactive Survey Graphs")
