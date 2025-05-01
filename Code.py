@@ -13,7 +13,7 @@ columns = ['MainBranch', 'Age', 'Employment', 'RemoteWork', 'EdLevel',
 df_clean = df[columns].copy()
 df_clean.dropna(subset=['Employment', 'RemoteWork', 'ConvertedCompYearly', 'JobSat'], inplace=True)
 df_clean['ConvertedCompYearly'] = pd.to_numeric(df_clean['ConvertedCompYearly'], errors='coerce')
-df_clean = df_clean[(df_clean['ConvertedCompYearly'] > 1000) & (df_clean['ConvertedCompYearly'] < 500000)]
+df_clean = df_clean[(df_clean['ConvertedCompYearly'] > 1000) & (df_clean['ConvertedCompYearly'] < 500000)]#
 
 # Graph Functions
 def show_histogram():
